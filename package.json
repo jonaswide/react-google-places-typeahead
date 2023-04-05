@@ -12,7 +12,8 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "npm run build"
   },
   "homepage": "https://github.com/netojose/react-google-places-typeahead",
   "bugs": {
